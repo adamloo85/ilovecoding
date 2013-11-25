@@ -1,0 +1,88 @@
+body, html {
+	height: 100%;
+}
+
+@font-face {
+ font-family: 'Ostrich-light'; 
+ src: url('../../fonts/Ostrich/ostrich-light.ttf');
+}
+
+@font-face {
+	font-family: 'Ostrich-regular';
+	src: url('../../fonts/Ostrich/ostrich-regular.ttf');
+}
+
+#splashBackground {
+	height: auto;
+	min-height: 100%;
+	width: 100%;
+	background:url(../../images/AC.JPG);
+	background-repeat: no;
+	background-size: cover;
+	background-attachment: fixed;
+/*	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}
+
+#projects {
+	background:url(../../images/viva.jpg);
+	background-repeat: no;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height:100%;
+	height: auto;
+}
+
+.project {
+	/*width: 200px;*/
+	border-radius: 10px;
+}
+
+#about {
+	background-color: #504539;
+	min-height: 75%;
+	height: auto;
+	width:100%;
+}
+
+#contact {
+	min-height:25%;
+	height:auto;
+	background-color: #121212;
+}
+
+#title {
+	font-size: 130px;
+	font-family: "Ostrich-regular";
+	padding-top: 200px;
+	color:white;
+	text-align: center;
+	background: transparent;
+}
+
+#description {
+	font-size: 30px;
+	color:white;
+	font-family: "Ostrich-regular";
+	text-align:center;
+}
+
+.bio {
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 25px;
+	color: white;
+}
+
+#links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#links li{
+	display:inline;
+	padding-left: 30px;
+}
